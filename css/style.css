@@ -245,8 +245,7 @@ text-align: center;
 hr {color: white;}
 
 footer {
-  height: 450px;
-  background-color: black;
+  background-color: #23272a;
 }
 
 footer .ending {
@@ -260,50 +259,82 @@ footer .last-box {
   margin: 10px 0;
   height: 80%;
   width: 100%;
-  background-color: lightsalmon;
 }
 
 footer .last-box .lower-main-content{
-  display: flex;
   flex-grow: 1.5;
-  border: 1px dotted black;
-  background-color: blueviolet;
 }
 
 footer .last-box .lower-main-content h3 {
   color: #7086d6;
+  font-weight: 800;
+  margin: 10px 0;
+}
+
+footer .last-box .lower-main-content .tenda{
+height: 10px;
+}
+
+.tenda img {
+  height: 100%;
+}
+
+.tenda span {
+  font-size: 8px;
+  color: white;
+}
+
+.last-box i {
+  color: white;
+  margin-top: 30px;
+  margin-right: 20px;
 }
 
 footer .last-box .lower-side-content{
   display: flex;
   flex-grow: 1;
-  border: 1px dotted black;
+  margin: 0 30px;
+}
+
+.lower-side-content ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.lower-side-content ul li {
+  margin-bottom: 20px;
+}
+
+.lower-side-content ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.lower-side-content ul li a:hover {
+  text-decoration: underline;
+}
+
+#different{
+  color: #7086d6;
 }
 
 footer .lastlast-box {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 10px;
-  height: 10%;
+  margin: 50px 0;
   width: 100%;
-  background-color: lightyellow;
 }
 
 footer .lastlast-box .lower-logo {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 70%;
-  min-width: 50px;
-  background-color: brown;
 }
 
 footer .lastlast-box .register {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 70%;
-  min-width: 50px;
-  background-color: brown;
 }
